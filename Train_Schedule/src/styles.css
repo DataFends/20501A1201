@@ -1,0 +1,60 @@
+/* Set the background color to black */
+body {
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Style for headings and text */
+h1, h2, p {
+  color: #fff; /* White text */
+  text-align: center;
+}
+
+/* Style for buttons */
+button {
+  background-color: #f06; /* Neon pink background */
+  color: #000; /* Black text */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #0af; /* Neon blue background on hover */
+}
+
+/* Style for tables */
+table {
+  width: 100%;
+  max-width: 800px;
+  background-color: #000;
+  color: #fff;
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+
+table th, table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #fff;
+}
+
+/* Style for links */
+a {
+  color: #0af; /* Neon blue link color */
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #f06; /* Neon pink link color on hover */
+}
