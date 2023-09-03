@@ -13,3 +13,8 @@ You can run this Flask application locally by saving it to a Python file (e.g., 
 
 Note that you need to have Flask and Requests installed in your Python environment. You can install them using pip:
 pip install Flask requests
+
+
+The Second Folder is that of a Train Schedule Application. It is meant to be created with React and its components.
+For now, I've just pushed the files that are to be modified or changed and this folder doesn't contain any of the node_modules or the package json file.
+Due to the time contraint, I've placed an overview map of the whole project/task and when you place these changes while running the React application. The results might be seen with a few more implementations and changes being made.
